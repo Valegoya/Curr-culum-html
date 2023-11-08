@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Curriculum Vitae</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+    }
+    .header {
+      background-color: #2ee486;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: #fff;
+      border: 2px solid #34db66;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .left-container, .right-container {
+      flex: 1;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .left-container {
+      background-color: #29bb61;
+      color: #fff;
+      text-align: center;
+    }
+    .right-container {
+      background-color: #fff;
+      color: #333;
+    }
+    .name {
+      font-size: 36px;
+      font-weight: bold;
+      margin: 0;
+    }
+    .contact-info {
+      font-size: 16px;
+    }
+    .section {
+      margin: 20px 0;
+    }
+    .section-header {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .section-content {
+      margin-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Curriculum Vitae</h1>
+  </div>
+  <div class="container">
+    <div class="left-container">
+      <img src="https://drive.google.com/uc?export=view&id=1OJSsqGEElhUCvp5OEgNj1OvYGOtk1KR0" alt="Mi imagen de perfil" width="200" height="200">
+      <div class="name">Valery Patricia Goya Nuñez</div>
+    </div>
+    <div class="right-container">
+      <div class="contact-info">
+        <p>Cédula: 0954296430</p>
+        <p>Celular: 0987775451</p>
+        <p>Dirección: Estrella de Belén M1827 V3</p>
+        <p>E-mail: goyavalery@gmail.com</p>
+      </div>
+      <div class="section">
+        <div class="section-header">Datos Personales</div>
+        <div class="section-content">
+          <p>Estado Civil: Soltera</p>
+          <p>Edad: 20 Años</p>
+          <p>Fecha de Nacimiento: 17 de enero del 2003</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header">Formación Académica</div>
+        <div class="section-content">
+          <p><strong>Primaria: Escuela Fiscal Rita Lecumberry</strong></p>
+          <p><strong>Secundaria: Colegio Fiscal Veintiocho de Mayo</strong></p>
+          <p><em>Título Obtenido: Bachiller en Comercialización y Ventas</em></p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header">Aptitudes</div>
+        <div class="section-content">
+          <p>• Conocimiento en Office</p>
+          <p>• Técnicas de Comunicación a Clientes</p>
+          <p>• Habilidades Multitareas</p>
+          <p>• Técnicas de Marketing</p>
+          <p>• Gestión de Ventas</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header">Referencias Personales</div>
+        <div class="section-content">
+          <p>Sra. Carolina Rodriguez</p>
+          <p>Teléfono: 0967580311</p>
+          <p>Sra. Veronica Arichabala</p>
+          <p>Teléfono: 096407814</p>
+          <p>Sr. Cristofer Cedero</p>
+          <p>Teléfono: 0985929814</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
