@@ -20,7 +20,8 @@ def satur():
 
 @app.route('/about')
 def about():
-    return render_template('about.html')
+    return render_template('weather.html')
+
 @app.route('/clima')
 def clima():
     return 'Clima'
